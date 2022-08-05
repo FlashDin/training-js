@@ -1,5 +1,14 @@
-const array = require('array.js');
+import {Array} from './array.js';
 
-// let array = new Array();
+class ArrayOfObject {
 
-console.log(array.addFirst());
+    arr = null;
+
+    constructor() {
+        this.arr = new Array("Toyota");
+        console.log(this.arr.getCarName());
+    }
+}
+
+const aoo = new ArrayOfObject();
+

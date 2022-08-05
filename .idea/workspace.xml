@@ -5,7 +5,12 @@
     <bookmark url="file://$PROJECT_DIR$/stringFunction.js" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2175327-6bfc-4819-a5f7-77bc68545377" name="Default Changelist" comment="" />
+    <list default="true" id="f2175327-6bfc-4819-a5f7-77bc68545377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayOfObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrayOfObject.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="n#!!block;n#addition#0" />
                 <element signature="n#!!block;n#subtraction#0" />
@@ -33,48 +38,54 @@
                 <element signature="n#!!block;n#discount#0" />
                 <element signature="n#!!block;n#lastPriceOfDiscount#0" />
                 <element signature="n#!!block;n#isPrime#0" />
-                <element signature="e#607#679#0" />
-                <element signature="e#636#673#0" />
                 <element signature="n#!!block;n#isPrime1#0" />
-                <element signature="e#760#832#0" />
-                <element signature="e#789#826#0" />
                 <element signature="n#!!block;n#isPrime2#0" />
-                <element signature="e#965#993#0" />
-                <element signature="e#1026#1055#0" />
                 <element signature="n#!!block;n#factorial#0" />
-                <element signature="e#1182#1224#0" />
                 <element signature="n#!!block;n#factorial1#0" />
-                <element signature="e#1337#1381#0" />
                 <element signature="n#!!block;n#sum#0" />
                 <element signature="e#1478#1742#0" />
                 <element signature="e#1594#1611#0" />
                 <element signature="e#1701#1736#0" />
                 <element signature="n#!!block;n#sumArray#0" />
-                <element signature="e#1794#1821#0" />
-                <element signature="e#2126#2193#0" />
                 <element signature="n#!!block;n#person#0" />
-                <element signature="e#2292#2300#0" />
                 <element signature="e#2319#2356#0" />
-                <element signature="e#2347#2367#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="179">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arrayOfObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrayOfObject.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -82,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stringFunction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+            <state relative-caret-position="1380">
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -101,16 +112,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/arithmetic.html" />
-        <option value="$PROJECT_DIR$/array.html" />
         <option value="$PROJECT_DIR$/stringFunction.js" />
         <option value="$PROJECT_DIR$/calculator.js" />
-        <option value="$PROJECT_DIR$/arrayOfObject.js" />
+        <option value="$PROJECT_DIR$/arrayOfObject.mjs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/array.html" />
         <option value="$PROJECT_DIR$/array.js" />
+        <option value="$PROJECT_DIR$/arrayOfObject.js" />
       </list>
     </option>
   </component>
@@ -119,6 +135,7 @@
     <option name="width" value="1366" />
     <option name="height" value="720" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -178,17 +195,20 @@
       <workItem from="1659316660669" duration="6424000" />
       <workItem from="1659403763756" duration="7344000" />
       <workItem from="1659491385516" duration="5895000" />
-      <workItem from="1659576860232" duration="4070000" />
+      <workItem from="1659576860232" duration="4703000" />
+      <workItem from="1659629899353" duration="795000" />
+      <workItem from="1659663148456" duration="3247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42603000" />
+    <option name="totallyTimeSpent" value="47278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="48" width="1366" height="720" extended-state="6" />
+    <frame x="0" y="48" width="1024" height="720" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20476545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2747253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,7 +222,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2637931" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2642487" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -214,13 +234,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/math.html" />
-    <entry file="file://$PROJECT_DIR$/array.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -235,27 +248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stringFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayOfObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="n#!!block;n#addition#0" />
             <element signature="n#!!block;n#subtraction#0" />
@@ -267,37 +263,56 @@
             <element signature="n#!!block;n#discount#0" />
             <element signature="n#!!block;n#lastPriceOfDiscount#0" />
             <element signature="n#!!block;n#isPrime#0" />
-            <element signature="e#607#679#0" />
-            <element signature="e#636#673#0" />
             <element signature="n#!!block;n#isPrime1#0" />
-            <element signature="e#760#832#0" />
-            <element signature="e#789#826#0" />
             <element signature="n#!!block;n#isPrime2#0" />
-            <element signature="e#965#993#0" />
-            <element signature="e#1026#1055#0" />
             <element signature="n#!!block;n#factorial#0" />
-            <element signature="e#1182#1224#0" />
             <element signature="n#!!block;n#factorial1#0" />
-            <element signature="e#1337#1381#0" />
             <element signature="n#!!block;n#sum#0" />
             <element signature="e#1478#1742#0" />
             <element signature="e#1594#1611#0" />
             <element signature="e#1701#1736#0" />
             <element signature="n#!!block;n#sumArray#0" />
-            <element signature="e#1794#1821#0" />
-            <element signature="e#2126#2193#0" />
             <element signature="n#!!block;n#person#0" />
-            <element signature="e#2292#2300#0" />
             <element signature="e#2319#2356#0" />
-            <element signature="e#2347#2367#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="179">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrayOfObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
