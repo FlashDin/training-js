@@ -2,10 +2,12 @@
   "name": "basic",
   "version": "1.0.0",
   "description": "",
-  "main": "array.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/FlashDin/training-js/issues"
   },
-  "homepage": "https://github.com/FlashDin/training-js#readme"
+  "homepage": "https://github.com/FlashDin/training-js#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

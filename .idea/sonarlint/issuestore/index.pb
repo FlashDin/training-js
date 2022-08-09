@@ -12,3 +12,7 @@ array.html,9/1/9189e76400d65bf1a2a39ac7b9b6f88b0832eb7c
 arrayOfObject.js,c/a/ca8f8bac3fb77f04188e19a02f12394c56ef594f
 A
 stringFunction.js,4/f/4fa4c879caa56532d8f9d16a987f96fe23457de0
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+E
+calculatorUseClass.js,5/4/544d0b57fdc64e05d60d372b9ab14356b70e1e81

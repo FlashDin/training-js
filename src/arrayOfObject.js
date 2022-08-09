@@ -1,4 +1,6 @@
-import {Array} from './array.js';
+"use strict";
+
+import Array from './array.js';
 
 class ArrayOfObject {
 
