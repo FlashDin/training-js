@@ -8,8 +8,8 @@ document.onreadystatechange = () => {
 }
 
 const form = () =>{
-    const form = document.getElementsByName("calculatorForm");
-    form[0].onsubmit = (e) => {
+    const formNames = document.getElementsByName("calculatorForm");
+    formNames[0].onsubmit = (e) => {
         e.preventDefault();
         console.log(e);
         switch(e.submitter.id) {
