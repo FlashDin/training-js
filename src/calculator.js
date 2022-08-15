@@ -134,5 +134,6 @@ const person2 = (name) => {
 };
 
 export {
-    addition
+    addition,
+    subtraction
 }

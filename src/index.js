@@ -1,5 +1,5 @@
 "use strict";
-import {addition} from './calculator';
+import {addition, subtraction} from './calculator';
 
 document.onreadystatechange = () => {
     if (document.readyState === "complete") {
@@ -11,8 +11,42 @@ const form = () =>{
     const form = document.getElementsByName("calculatorForm");
     form[0].onsubmit = (e) => {
         e.preventDefault();
-        additional();
-        subtractional();
+        console.log(e);
+        switch(e.submitter.id) {
+            case "addition":
+                additional();
+                break;
+            case "subtraction":
+                subtractional();
+                break;
+            case "multiplication":
+                multiplicational();
+                break;
+            case "exponen":
+                exponenal();
+                break;
+            case "division":
+                divisional();
+                break;
+            case "modulus":
+                modulusal();
+                break;
+            case "percent":
+                percental();
+                break;
+            case "lastPriceOfDiscount":
+                lastPriceOfDiscountal();
+                break;
+            case "isPrime":
+                isPrimeal();
+                break;
+            case "factorial":
+                factorialal();
+                break;
+            default:
+                additional();
+                break;
+        }
         multiplicational();
         exponenal();
         divisional();
@@ -31,7 +65,10 @@ const additional = () => {
     hasil.innerText = addition(parseInt(a[0].value), parseInt(b[0].value));
 }
 const subtractional = () => {
-
+    let a = document.getElementsByName("a");
+    let b = document.getElementsByName("b");
+    let hasil = document.getElementById("hasil");
+    hasil.innerText = subtraction(parseInt(a[0].value), parseInt(b[0].value));
 }
 const multiplicational = () => {
 
