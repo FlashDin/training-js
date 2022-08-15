@@ -133,7 +133,6 @@ const person2 = (name) => {
     return name;
 };
 
-let a = "123456";
-
-console.log(person1("HEHE"));
-console.log(sumArray([1,2,3]));
+export {
+    addition
+}
