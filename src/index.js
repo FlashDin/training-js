@@ -11,7 +11,7 @@ const form = () =>{
     const formNames = document.getElementsByName("calculatorForm");
     formNames[0].onsubmit = (e) => {
         e.preventDefault();
-        console.log(e);
+        console.log(e.submitter.id);
         switch(e.submitter.id) {
             case "addition":
                 additional();
@@ -47,14 +47,6 @@ const form = () =>{
                 additional();
                 break;
         }
-        multiplicational();
-        exponenal();
-        divisional();
-        modulusal();
-        percental();
-        lastPriceOfDiscountal();
-        isPrimeal();
-        factorialal();
     }
 }
 
