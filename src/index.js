@@ -1,8 +1,14 @@
 "use strict";
 import {addition, subtraction} from './calculator';
 
+let a = null;
+let b = null;
+let hasil = null;
 document.onreadystatechange = () => {
     if (document.readyState === "complete") {
+        a = document.getElementsByName("a");
+        b = document.getElementsByName("b");
+        hasil = document.getElementById("hasil");
         form();
     }
 }
@@ -51,15 +57,9 @@ const form = () =>{
 }
 
 const additional = () => {
-    let a = document.getElementsByName("a");
-    let b = document.getElementsByName("b");
-    let hasil = document.getElementById("hasil");
     hasil.innerText = addition(parseInt(a[0].value), parseInt(b[0].value));
 }
 const subtractional = () => {
-    let a = document.getElementsByName("a");
-    let b = document.getElementsByName("b");
-    let hasil = document.getElementById("hasil");
     hasil.innerText = subtraction(parseInt(a[0].value), parseInt(b[0].value));
 }
 const multiplicational = () => {

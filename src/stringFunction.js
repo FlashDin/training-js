@@ -64,4 +64,7 @@ function isLetter() {
     return true;
 }
 
-// console.log(toCamel("a bc d"));
+export {
+    toUpper,
+    toLower
+}
