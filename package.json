@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/FlashDin/training-js#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0",
     "webpack-dev-server": "^4.9.3"
