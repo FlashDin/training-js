@@ -28,10 +28,29 @@ function renderTableRow() {
                 <td>${posts[i]["title"]}</td>
                 <td>${posts[i]["body"]}</td>
                 <td>
-                    <button name="edit">Edit</button>
-                    <button name="delete">Hapus</button>
+                    <button name="edit" value="${posts[i]["id"]}">Edit</button>
+                    <button name="delete" value="${posts[i]["id"]}">Hapus</button>
                 </td>
             </tr>`;
     }
     table.childNodes[3].innerHTML = tr;
+    document.getElementsByName("delete").forEach(t => {
+        t.onclick = (e) => {
+            deleteData(e.target.value);
+        };
+    });
+}
+
+function editData(data) {
+    console.log(data);
+}
+
+function deleteData(id) {
+    let text;
+    if (confirm("Apakah anda yakin akan hapus data?")) {
+        text = "Terhapus";
+    } else {
+        text = "Batal";
+    }
+    console.log(id, text);
 }
