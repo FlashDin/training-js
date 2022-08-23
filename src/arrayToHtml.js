@@ -2,6 +2,8 @@
 import {posts} from "./array.js";
 
 const frAdd = document.getElementById("frAdd");
+const titleName = document.getElementsByName("title")[0];
+const bodyName = document.getElementsByName("body")[0];
 const formDiv = document.getElementById("formDiv");
 const tableDiv = document.getElementById("tableDiv");
 const btnShow = document.getElementById("btnShow");
@@ -21,6 +23,7 @@ renderTableRow();
 function renderTableRow() {
     const table = tableDiv.childNodes[3];
     let tr = '';
+    table.childNodes[3].innerHTML = tr;
     // bisa pakai ini -> for (const post of posts)
     for (let i = 0; i < posts.length; i++) {
         tr += `<tr>
@@ -39,18 +42,56 @@ function renderTableRow() {
             deleteData(e.target.value);
         };
     });
+    document.getElementsByName("edit").forEach(t => {
+        t.onclick = (e) => {
+            editData(e.target.value);
+        };
+    });
 }
 
-function editData(data) {
-    console.log(data);
+frAdd.onsubmit = (e) => {
+    e.preventDefault();
+    saveData(e);
+}
+
+function saveData(e) {
+    if (e.submitter.value === "") {
+        posts.push({
+            id: "",
+            title: titleName.value,
+            body: bodyName.value,
+        });
+    } else {
+        // posts.splice()
+    }
+    renderTableRow();
+    btnKembali.click();
+}
+
+function editData(id) {
+    let data = {};
+    for (let i = 0; i < posts.length; i++) {
+        if (posts[i].id.toString() === id) {
+            data = posts[i];
+        }
+    }
+    btnShow.click();
+    titleName.value = data.title;
+    bodyName.value = data.body;
 }
 
 function deleteData(id) {
     let text;
     if (confirm("Apakah anda yakin akan hapus data?")) {
+        for (let i = 0; i < posts.length; i++) {
+            if (posts[i].id.toString() === id) {
+                posts.splice(i, 1);
+            }
+        }
         text = "Terhapus";
+        renderTableRow();
     } else {
         text = "Batal";
     }
-    console.log(id, text);
+    alert(id + " " + text);
 }
