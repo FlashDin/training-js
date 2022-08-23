@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"posts\": () => (/* binding */ posts)\n/* harmony export */ });\n\n\nconst posts = [\n    {\n        id: \"\",\n    }\n]\n\n\n//# sourceURL=webpack://basic/./src/array.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"posts\": () => (/* binding */ posts)\n/* harmony export */ });\n\n\nconst posts = [\n    {\n        id: 1,\n        title: \"wiki\",\n        body: \"wiki is\"\n    },\n    {\n        id: 2,\n        title: \"wiki 1\",\n        body: \"wiki 1 is\"\n    },\n    {\n        id: 3,\n        title: \"wiki 2\",\n        body: \"wiki 2 is\"\n    }\n]\n\n\n//# sourceURL=webpack://basic/./src/array.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _array_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./array.js */ \"./src/array.js\");\n\n;\n\nconst frAdd = document.getElementById(\"frAdd\");\nconst formDiv = document.getElementById(\"formDiv\");\nconst tableDiv = document.getElementById(\"tableDiv\");\nconst btnShow = document.getElementById(\"btnShow\");\nconst btnKembali = document.getElementById(\"btnKembali\");\nformDiv.style.display = 'none';\nbtnShow.onclick = () => {\n    tableDiv.style.display = 'none';\n    formDiv.style.display = 'block';\n};\nbtnKembali.onclick = () => {\n    formDiv.style.display = 'none';\n    tableDiv.style.display = 'block';\n};\n\n//# sourceURL=webpack://basic/./src/arrayToHtml.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _array_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./array.js */ \"./src/array.js\");\n\n;\n\nconst frAdd = document.getElementById(\"frAdd\");\nconst formDiv = document.getElementById(\"formDiv\");\nconst tableDiv = document.getElementById(\"tableDiv\");\nconst btnShow = document.getElementById(\"btnShow\");\nconst btnKembali = document.getElementById(\"btnKembali\");\nformDiv.style.display = 'none';\nbtnShow.onclick = () => {\n    tableDiv.style.display = 'none';\n    formDiv.style.display = 'block';\n};\nbtnKembali.onclick = () => {\n    formDiv.style.display = 'none';\n    tableDiv.style.display = 'block';\n};\n\nrenderTableRow();\n\nfunction renderTableRow() {\n    const table = tableDiv.childNodes[3];\n    let tr = '';\n    // bisa pakai ini -> for (const post of posts)\n    for (let i = 0; i < _array_js__WEBPACK_IMPORTED_MODULE_0__.posts.length; i++) {\n        tr += `<tr>\n                <td>${_array_js__WEBPACK_IMPORTED_MODULE_0__.posts[i][\"id\"]}</td>\n                <td>${_array_js__WEBPACK_IMPORTED_MODULE_0__.posts[i][\"title\"]}</td>\n                <td>${_array_js__WEBPACK_IMPORTED_MODULE_0__.posts[i][\"body\"]}</td>\n                <td>\n                    <button name=\"edit\">Edit</button>\n                    <button name=\"delete\">Hapus</button>\n                </td>\n            </tr>`;\n    }\n    table.childNodes[3].innerHTML = tr;\n}\n\n//# sourceURL=webpack://basic/./src/arrayToHtml.js?");
 
 /***/ })
 
