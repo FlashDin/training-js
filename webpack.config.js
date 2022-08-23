@@ -1,11 +1,12 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
     entry: {
         index: './src/index.js',
-        string: './src/string.js'
+        string: './src/string.js',
+        parentChildExample: './src/parentChildExample.js',
+        arrayToHtml: './src/arrayToHtml.js',
     },
     output: {
         filename: "[name].js",

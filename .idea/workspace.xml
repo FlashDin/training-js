@@ -7,9 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f2175327-6bfc-4819-a5f7-77bc68545377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/string.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,7 @@
   "keyToString": {
     "Project.color": "5f4d0b",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/javan/Documents/projects/training-js/dist",
+    "last_opened_file_path": "/home/javan/Documents/projects/training-js/src",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -107,8 +106,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -144,7 +143,9 @@
       <workItem from="1660715315001" duration="6000" />
       <workItem from="1660817457497" duration="1247000" />
       <workItem from="1660898144671" duration="11000" />
-      <workItem from="1660903530030" duration="2171000" />
+      <workItem from="1660903530030" duration="3923000" />
+      <workItem from="1661163524260" duration="2842000" />
+      <workItem from="1661249554992" duration="3133000" />
     </task>
     <servers />
   </component>
